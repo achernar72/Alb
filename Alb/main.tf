@@ -42,6 +42,7 @@ resource "aws_lb" "my-aws-alb" {
   subnets = [
     "${var.subnet1}",
     "${var.subnet2}",
+    "${var.subnet3}",
   ]
 
   tags = {
